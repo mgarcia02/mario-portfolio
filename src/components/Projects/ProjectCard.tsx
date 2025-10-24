@@ -1,6 +1,6 @@
 import type { Project } from '@/types'
 
-function ProjectCard({ title, technologies, description, codeUrl, previewUrl }:Project) {
+function ProjectCard({ title, technologies, description, codeUrl }:Project) {
     return(
         <article className="flex flex-col gap-6 md:flex-row">
             <div className="w-full bg-gray-400 rounded-sm h-52 md:w-1/2">
@@ -16,8 +16,10 @@ function ProjectCard({ title, technologies, description, codeUrl, previewUrl }:P
             </ul>
             <p>{description}</p>
             <footer className="flex gap-5 mt-8">
-                <a href={codeUrl} target="_blank">Code</a>
-                <a href={previewUrl} target="_blank">Preview</a>
+                <a className='button' href={codeUrl} target="_blank">
+                    <span className="actual-text">&nbsp;Código&nbsp;</span>
+                    <span aria-hidden="true" className="hover-text">&nbsp;Código&nbsp;</span>
+                </a>
             </footer>
             </div>
         </article>

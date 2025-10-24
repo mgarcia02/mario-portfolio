@@ -3,6 +3,54 @@
 @tailwind utilities;
 
 /* Clases personalizadas */
+body {
+  @apply text-white bg-[#130F1D] opacity-90; /* o text-slate-300, etc. */
+}
+body p {
+    @apply text-gray-200 text-opacity-40
+}
 .section-container {
     @apply mx-10 md:mx-auto lg:max-w-4xl md:max-w-2xl py-24
+}
+.underlined-text {
+    @apply text-secondary text-opacity-100
+}
+
+/* CSS */
+.button {
+    position: relative;
+    letter-spacing: 3px;
+    color: white;
+    overflow: hidden;
+}
+
+.button .hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #FFBD0A;
+    border-right: 3px solid #FFBD0A;
+    overflow: hidden;
+    transition: width 0.5s ease;
+    white-space: nowrap;
+}
+
+.button:hover .hover-text {
+    width: 100%;
+}
+
+@keyframes pulse-dot {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+
+.group:hover .pulse-on-hover {
+    animation: pulse-dot 1.2s ease-in-out infinite;
+    transform-origin: center;
 }

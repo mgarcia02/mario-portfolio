@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-      <section className="flex flex-col justify-center h-screen gap-12 md:items-center md:justify-between md:flex-row section-padding2">
+      <section className="flex flex-col justify-center h-screen gap-12 md:items-center md:justify-between md:flex-row section-container">
         <div>
           <h1 className="text-4xl font-bold">Mario García Relaño</h1>
         <h2 className="mt-2 text-2xl text-gray-700">Programador Full-Stack</h2>
@@ -14,7 +14,7 @@ function App() {
           <p>correo</p>
         </div>
       </section>
-      <section className="px-12 py-20 text-center">
+      <section className="px-12 py-20 text-center section-container">
         <h2 className="mb-16 text-xl font-bold">Algunas de mis habilidades</h2>
         <div className="flex flex-wrap justify-center gap-4 md:gap-x-20 md:gap-y-6">
           <p>HTML</p>
@@ -31,7 +31,7 @@ function App() {
           <p>Git</p>
         </div>
       </section>
-      <section className="items-center section-padding2 lg:items-start">
+      <section className="items-center section-container lg:items-start">
         <h2 className="mb-12 text-3xl font-bold">Experiencia laboral</h2>
         <ol className="relative pl-10 border-l-2 border-gray-300">
           <li>
@@ -49,7 +49,7 @@ function App() {
           </li>
         </ol>
       </section>
-      <section className="items-center section-padding2 lg:items-start">
+      <section className="items-center section-container lg:items-start">
         <h2 className="mb-12 text-3xl font-bold">Proyectos</h2>
         <div>
           <article className="flex flex-col gap-6 md:flex-row">
@@ -70,9 +70,9 @@ function App() {
           </article>
         </div>
       </section>
-      <section className="section-padding2">
+      <section className="section-container">
         <h2 className="mb-12 text-3xl font-bold">Sobre mí</h2>
-        <article>
+        <article className="space-y-6">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veritatis, iste quidem porro deleniti vitae possimus neque aliquid sed distinctio quam vero provident rerum quia ad nobis! Sint, incidunt quas?</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem corporis molestias doloremque maiores quaerat totam, ullam dolorum ipsam quasi? Pariatur recusandae, numquam molestiae minus laborum molestias nam libero ratione quas?</p>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit provident porro exercitationem dolore. Magni, laboriosam labore modi, facere architecto mollitia quo sed vero necessitatibus, adipisci numquam quod voluptatibus accusantium doloremque.</p>

@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-      <section className="flex flex-col justify-center h-screen gap-12 px-12 py-12 bg-gray-300 md:items-center md:justify-between lg:py-48 lg:px-48 md:flex-row">
+      <section className="flex flex-col justify-center h-screen gap-12 md:items-center md:justify-between md:flex-row section-padding2">
         <div>
           <h1 className="text-4xl font-bold">Mario García Relaño</h1>
         <h2 className="mt-2 text-2xl text-gray-700">Programador Full-Stack</h2>
@@ -14,7 +14,24 @@ function App() {
           <p>correo</p>
         </div>
       </section>
-      <section className="items-center px-12 py-12 lg:py-24 lg:px-48 lg:items-start">
+      <section className="px-12 py-20 text-center">
+        <h2 className="mb-16 text-xl font-bold">Algunas de mis habilidades</h2>
+        <div className="flex flex-wrap justify-center gap-4 md:gap-x-20 md:gap-y-6">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>Javascript</p>
+          <p>Typescript</p>
+          <p>Java</p>
+          <p>Python</p>
+          <p>PHP</p>
+          <p>SQL</p>
+          <p>Angular</p>
+          <p>Vue</p>
+          <p>Spring Boot</p>
+          <p>Git</p>
+        </div>
+      </section>
+      <section className="items-center section-padding2 lg:items-start">
         <h2 className="mb-12 text-3xl font-bold">Experiencia laboral</h2>
         <ol className="relative pl-10 border-l-2 border-gray-300">
           <li>
@@ -32,13 +49,34 @@ function App() {
           </li>
         </ol>
       </section>
-      <section className="items-center px-12 py-12 lg:py-24 lg:px-48 lg:items-start">
+      <section className="items-center section-padding2 lg:items-start">
         <h2 className="mb-12 text-3xl font-bold">Proyectos</h2>
-        <p>HOLA</p>
+        <div>
+          <article className="flex flex-col gap-6 md:flex-row">
+            <div className="w-full bg-gray-200 rounded-sm h-52 md:w-1/2">
+            </div>
+            <div className="w-full md:w-1/2">
+              <h3 className="text-2xl font-bold">TITULO</h3>
+              <ul className="flex gap-5">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ducimus asperiores quod, mollitia amet tempore modi qui velit. Ullam aliquid ut enim corrupti sed rem praesentium necessitatibus explicabo neque autem.</p>
+              <footer className="flex gap-5 mt-8">
+                <a href="#">Code</a>
+                <a href="#">Preview</a>
+              </footer>
+            </div>
+          </article>
+        </div>
       </section>
-      <section>
-        <h2>Sobre mi/ habilidades</h2>
-        <p>HOLA</p>
+      <section className="section-padding2">
+        <h2 className="mb-12 text-3xl font-bold">Sobre mí</h2>
+        <article>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veritatis, iste quidem porro deleniti vitae possimus neque aliquid sed distinctio quam vero provident rerum quia ad nobis! Sint, incidunt quas?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem corporis molestias doloremque maiores quaerat totam, ullam dolorum ipsam quasi? Pariatur recusandae, numquam molestiae minus laborum molestias nam libero ratione quas?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit provident porro exercitationem dolore. Magni, laboriosam labore modi, facere architecto mollitia quo sed vero necessitatibus, adipisci numquam quod voluptatibus accusantium doloremque.</p>
+        </article>
       </section>
     </>
   )

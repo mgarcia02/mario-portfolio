@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Clases personalizadas */
+.section-padding {
+    @apply px-12 py-24 lg:px-48 xl:px-80;
+}
+
+.section-padding2 {
+    @apply mx-10 md:mx-auto lg:max-w-4xl md:max-w-2xl
+}

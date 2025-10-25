@@ -21,6 +21,9 @@ body p {
 .underlined-text {
     @apply text-secondary text-opacity-100
 }
+.skills p {
+    font-size: small;
+}
 
 /* CSS */
 .cursor-light {

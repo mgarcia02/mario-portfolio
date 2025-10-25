@@ -20,7 +20,7 @@ import VueIcon from '@/assets/icons/vue.svg?react'
 
 function Skills() {
     return (
-        <section id='skills' className="section-container">
+        <section id='skills' className="skills section-container">
             <h2 className="mb-12 text-3xl font-bold">Habilidades</h2>
             <div className='grid grid-cols-1 grid-rows-4 gap-5 md:grid-cols-2 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4'>
                 <div className='relative p-5 group'>
@@ -28,27 +28,27 @@ function Skills() {
                     <h3 className='pb-10'>Frontend</h3>
                     <div className='flex flex-wrap gap-4'>
                         <div className='flex flex-col items-center gap-2'>
-                            <HTMLIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <HTMLIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>HTML</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <CSSIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <CSSIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>CSS</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <VueIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <VueIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Vue</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <JavaScriptIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <JavaScriptIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Javascript</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <ReactIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <ReactIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>React</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <TypeScriptIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <TypeScriptIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Typescript</p>
                         </div>
                     </div>
@@ -58,27 +58,27 @@ function Skills() {
                     <h3 className='pb-10'>Backend</h3>
                     <div className='flex flex-wrap gap-4'>
                         <div className='flex flex-col items-center gap-2'>
-                            <JavaIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <JavaIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Java</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <SpringBootIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <SpringBootIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Spring Boot</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <MySQLIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <MySQLIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>MySQL</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <ExpressJSIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <ExpressJSIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>ExpressJS</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <PythonIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <PythonIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Python</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <PHPIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <PHPIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>PHP</p>
                         </div>
                     </div>
@@ -88,23 +88,23 @@ function Skills() {
                     <h3 className='pb-10'>Herramientas</h3>
                     <div className='flex flex-wrap gap-4'>
                         <div className='flex flex-col items-center gap-2'>
-                            <GitIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <GitIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Git</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <WordpressIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <WordpressIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Wordpress</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <VSCodeIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <VSCodeIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Vscode</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <IntelliJIdeaIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <IntelliJIdeaIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Intellij</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <TerminalIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <TerminalIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Terminal</p>
                         </div>
                     </div>
@@ -114,11 +114,11 @@ function Skills() {
                     <h3 className='pb-10'>Aprendiendo</h3>
                     <div className='flex flex-wrap gap-4'>
                         <div className='flex flex-col items-center gap-2'>
-                            <PyTorchIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <PyTorchIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>PyTorch</p>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
-                            <DockerIcon className="w-8 text-gray-200 text-opacity-40" />
+                            <DockerIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p>Docker</p>
                         </div>
                     </div>

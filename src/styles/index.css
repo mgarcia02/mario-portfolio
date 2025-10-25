@@ -17,13 +17,22 @@ body p {
 }
 
 /* CSS */
+.cursor-light {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    pointer-events: none;
+}
+.cursor-light-bg {
+    background: radial-gradient(circle 150px at var(--x, 0px) var(--y, 0px), rgba(255, 189, 10, 0.075), transparent 500%);
+}
+
 .button {
     position: relative;
     letter-spacing: 3px;
     color: white;
     overflow: hidden;
 }
-
 .button .hover-text {
     position: absolute;
     top: 0;
@@ -36,7 +45,6 @@ body p {
     transition: width 0.5s ease;
     white-space: nowrap;
 }
-
 .button:hover .hover-text {
     width: 100%;
 }
@@ -49,7 +57,6 @@ body p {
         transform: scale(1.5);
     }
 }
-
 .group:hover .pulse-on-hover {
     animation: pulse-dot 1.2s ease-in-out infinite;
     transform-origin: center;

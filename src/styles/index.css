@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 /* Clases personalizadas */
+html {
+    @apply scroll-smooth
+}
 body {
   @apply text-white bg-[#130F1D] opacity-90; /* o text-slate-300, etc. */
 }
 body p {
     @apply text-gray-200 text-opacity-40
+}
+.underlined-nav {
+    @apply transition-all duration-1000 absolute -bottom-1 left-0 w-0 group-hover:w-full h-[3px] bg-secondary
 }
 .section-container {
     @apply mx-10 md:mx-auto lg:max-w-4xl md:max-w-2xl py-24
@@ -24,12 +30,12 @@ body p {
     pointer-events: none;
 }
 .cursor-light-bg {
-    background: radial-gradient(circle 150px at var(--x, 0px) var(--y, 0px), rgba(255, 189, 10, 0.075), transparent 500%);
+    background: radial-gradient(circle 150px at var(--x, 0px) var(--y, 0px), rgba(255, 189, 10, 0.075), transparent 600%);
 }
 
 .button {
     position: relative;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: white;
     overflow: hidden;
 }
@@ -42,7 +48,7 @@ body p {
     color: #FFBD0A;
     border-right: 3px solid #FFBD0A;
     overflow: hidden;
-    transition: width 0.5s ease;
+    transition: width 1s ease;
     white-space: nowrap;
 }
 .button:hover .hover-text {
@@ -58,6 +64,6 @@ body p {
     }
 }
 .group:hover .pulse-on-hover {
-    animation: pulse-dot 1.2s ease-in-out infinite;
+    animation: pulse-dot 1.5s ease-in-out infinite;
     transform-origin: center;
 }

@@ -1,6 +1,6 @@
 function Navbar() {
     return(
-        <nav className="fixed z-10 hidden w-full p-10 md:block bg-primary/80 backdrop-blur">
+        <nav className="fixed z-30 hidden w-full p-10 md:block bg-primary/80 backdrop-blur">
             <ul className="flex flex-wrap justify-center gap-6">
                 <li>
                     <a href="#skills" className="relative group">

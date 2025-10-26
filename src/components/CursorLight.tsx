@@ -14,7 +14,7 @@ function CursorLight() {
         return () => window.removeEventListener('mousemove', updatePosition)
     }, [])
 
-    return <div ref={lightRef} className="z-20 cursor-light cursor-light-bg" />
+    return <div ref={lightRef} className="z-10 cursor-light cursor-light-bg" />
     }
 
 export default CursorLight

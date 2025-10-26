@@ -23,103 +23,103 @@ function Skills() {
         <section id='skills' className="skills section-container">
             <h2 className="mb-12 text-3xl font-bold">Habilidades</h2>
             <div className='grid grid-cols-1 grid-rows-4 gap-5 md:grid-cols-2 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4'>
-                <div className='relative p-5 group'>
-                    <span className='absolute left-0 w-[3px] h-0 group-hover:h-full duration-1000 bg-secondary transition-all'></span>
+                <div className='relative p-5 group/section'>
+                    <span className='absolute left-0 w-[3px] h-0 group-hover/section:h-full duration-1000 bg-secondary transition-all'></span>
                     <h3 className='pb-10'>Frontend</h3>
-                    <div className='flex flex-wrap gap-4'>
-                        <div className='flex flex-col items-center gap-2'>
+                    <div className='flex flex-wrap gap-8'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <HTMLIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>HTML</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">HTML</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <CSSIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>CSS</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">CSS</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <VueIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Vue</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Vue</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <JavaScriptIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Javascript</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">JavaScript</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <ReactIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>React</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">React</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group '>
                             <TypeScriptIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Typescript</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">TypeScript</p>
                         </div>
                     </div>
                 </div>
-                <div className='relative p-5 group'>
-                    <span className='absolute left-0 w-[3px] h-0 group-hover:h-full duration-1000 bg-secondary transition-all'></span>
+                <div className='relative p-5 group/section'>
+                    <span className='absolute left-0 w-[3px] h-0 group-hover/section:h-full duration-1000 bg-secondary transition-all'></span>
                     <h3 className='pb-10'>Backend</h3>
-                    <div className='flex flex-wrap gap-4'>
-                        <div className='flex flex-col items-center gap-2'>
+                    <div className='flex flex-wrap gap-8'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <JavaIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Java</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Java</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <SpringBootIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Spring Boot</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Spring</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <MySQLIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>MySQL</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">MySQL</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <ExpressJSIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>ExpressJS</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">ExpressJS</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <PythonIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Python</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Python</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <PHPIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>PHP</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">PHP</p>
                         </div>
                     </div>
                 </div>
-                <div className='relative p-5 group'>
-                    <span className='absolute left-0 w-[3px] h-0 group-hover:h-full duration-1000 bg-secondary transition-all'></span>
+                <div className='relative p-5 group/section'>
+                    <span className='absolute left-0 w-[3px] h-0 group-hover/section:h-full duration-1000 bg-secondary transition-all'></span>
                     <h3 className='pb-10'>Herramientas</h3>
-                    <div className='flex flex-wrap gap-4'>
-                        <div className='flex flex-col items-center gap-2'>
+                    <div className='flex flex-wrap gap-8'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <GitIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Git</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Git</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <WordpressIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Wordpress</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">WordPress</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <VSCodeIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Vscode</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Vscode</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <IntelliJIdeaIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Intellij</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">IntelliJ</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <TerminalIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Terminal</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Terminal</p>
                         </div>
                     </div>
                 </div>
-                <div className='relative p-5 group'>
-                    <span className='absolute left-0 w-[3px] h-0 group-hover:h-full duration-1000 bg-secondary transition-all'></span>
+                <div className='relative p-5 group/section'>
+                    <span className='absolute left-0 w-[3px] h-0 group-hover/section:h-full duration-1000 bg-secondary transition-all'></span>
                     <h3 className='pb-10'>Aprendiendo</h3>
-                    <div className='flex flex-wrap gap-4'>
-                        <div className='flex flex-col items-center gap-2'>
+                    <div className='flex flex-wrap gap-8'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <PyTorchIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>PyTorch</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">PyTorch</p>
                         </div>
-                        <div className='flex flex-col items-center gap-2'>
+                        <div className='relative flex flex-col items-center pb-5 group'>
                             <DockerIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p>Docker</p>
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Docker</p>
                         </div>
                     </div>
                 </div>

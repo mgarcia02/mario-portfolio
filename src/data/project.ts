@@ -4,7 +4,7 @@ export const projects: Project[] = [
     {
         id: 'portfolio',
         title: 'Portfolio personal',
-        technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+        technologies: ['React', 'TypeScript', 'Tailwind'],
         description:
         'Aplicación web responsiva para mostrar experiencia, proyectos y contacto. Implementación de alias, diseño modular y buenas prácticas profesionales.',
         codeUrl: '#',

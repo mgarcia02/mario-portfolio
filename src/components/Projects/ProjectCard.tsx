@@ -10,7 +10,7 @@ function ProjectCard({ title, technologies, description, codeUrl }:Project) {
                 <ul className="flex gap-5">
                     {
                     technologies.map((tech) => (
-                        <li className='z-20 p-2 pl-4 pr-4 tracking-widest rounded-full bg-primary' key={tech}>{tech}</li>
+                        <li className='z-20 p-2 pl-4 pr-4 text-xs tracking-widest rounded-full bg-primary' key={tech}>{tech}</li>
                     ))
                     }
                 </ul>

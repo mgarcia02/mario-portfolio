@@ -20,7 +20,7 @@ function ProjectCard({ title, technologies, description, codeUrl, image }:Projec
                     }
                 </ul>
                 <p>{description}</p>
-                <footer className="flex gap-5 mt-8">
+                <footer className="flex gap-5 mt-6">
                     <a className='button' href={codeUrl} target="_blank">
                         <span className="actual-text">&nbsp;Código&nbsp;</span>
                         <span aria-hidden="true" className="hover-text">&nbsp;Código&nbsp;</span>

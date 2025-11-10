@@ -10,13 +10,14 @@ import DockerIcon from '@/assets/icons/docker.svg?react'
 import GitIcon from '@/assets/icons/git.svg?react'
 import PythonIcon from '@/assets/icons/python.svg?react'
 import PyTorchIcon from '@/assets/icons/pytorch.svg?react'
-import ExpressJSIcon from '@/assets/icons/expressjs.svg?react'
-import PHPIcon from '@/assets/icons/php.svg?react'
+import NodeJSIcon from '@/assets/icons/nodejs.svg?react'
+import MongoDBIcon from '@/assets/icons/mongodb.svg?react'
 import TerminalIcon from '@/assets/icons/terminal.svg?react'
 import VSCodeIcon from '@/assets/icons/vscode.svg?react'
 import WordpressIcon from '@/assets/icons/wordpress.svg?react'
 import IntelliJIdeaIcon from '@/assets/icons/intellij.svg?react'
 import VueIcon from '@/assets/icons/vue.svg?react'
+import N8NIcon from '@/assets/icons/n8n.svg?react'
 
 function Skills() {
     return (
@@ -70,16 +71,16 @@ function Skills() {
                             <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">MySQL</p>
                         </div>
                         <div className='relative flex flex-col items-center pb-5 group'>
-                            <ExpressJSIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">ExpressJS</p>
+                            <NodeJSIcon className="w-10 text-gray-200 text-opacity-40" />
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Node.js</p>
                         </div>
                         <div className='relative flex flex-col items-center pb-5 group'>
                             <PythonIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Python</p>
                         </div>
                         <div className='relative flex flex-col items-center pb-5 group'>
-                            <PHPIcon className="w-10 text-gray-200 text-opacity-40" />
-                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">PHP</p>
+                            <MongoDBIcon className="w-10 text-gray-200 text-opacity-40" />
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">MongoDB</p>
                         </div>
                     </div>
                 </div>
@@ -120,6 +121,10 @@ function Skills() {
                         <div className='relative flex flex-col items-center pb-5 group'>
                             <DockerIcon className="w-10 text-gray-200 text-opacity-40" />
                             <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">Docker</p>
+                        </div>
+                        <div className='relative flex flex-col items-center pb-5 group'>
+                            <N8NIcon className="w-10 text-gray-200 text-opacity-40" />
+                            <p className="absolute bottom-0 transition-opacity duration-700 opacity-0 group-hover:opacity-100">n8n</p>
                         </div>
                     </div>
                 </div>

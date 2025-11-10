@@ -32,20 +32,32 @@ function App() {
         <h2 className="mb-12 text-3xl font-bold">Sobre mí</h2>
         <article className="space-y-6">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            <span className="underlined-text"> Ex veritatis</span>, iste quidem 
-            <span className="underlined-text"> porro deleniti</span> vitae possimus neque aliquid sed distinctio quam vero 
-            <span className="underlined-text"> provident rerum</span> quia ad nobis! Sint, incidunt quas?
+            Soy un desarrollador orientado a la 
+            <span className="underlined-text"> creación de aplicaciones web modernas</span>, 
+            con un interés por la 
+            <span className="underlined-text"> inteligencia artificial</span>. 
+            Me motiva explorar cómo la IA puede integrarse en proyectos reales para 
+            <span className="underlined-text"> transformar ideas en soluciones funcionales </span> 
+            y aportar un valor diferencial.
           </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem corporis 
-            <span className="underlined-text"> molestias doloremque</span> maiores quaerat totam, ullam dolorum ipsam quasi? 
-            Pariatur recusandae, numquam molestiae minus laborum molestias nam libero ratione quas?
+            He trabajado con tecnologías como 
+            <span className="underlined-text"> React, TypeScript y Node.js</span>, 
+            además de integrar bases de datos y servicios externos. 
+            Disfruto de los retos que implican 
+            <span className="underlined-text"> diseño de arquitectura</span> y 
+            <span className="underlined-text"> optimización de procesos</span>.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit provident porro 
-            <span className="underlined-text"> exercitationem dolore</span>. Magni, laboriosam labore modi, facere architecto mollitia quo sed vero 
-            <span className="underlined-text"> necessitatibus</span>, adipisci numquam quod voluptatibus accusantium doloremque.
+            Mi objetivo es seguir desarrollándome como profesional en un entorno donde pueda 
+            <span className="underlined-text"> aportar valor al equipo</span>, 
+            mantener una actitud de 
+            <span className="underlined-text"> aprendizaje continuo</span>. 
+            Creo que la 
+            <span className="underlined-text"> inteligencia artificial </span> 
+            es una herramienta poderosa para 
+            <span className="underlined-text"> mejorar la vida de las personas </span> 
+            y abrir nuevas oportunidades en el desarrollo tecnológico.
           </p>
         </article>
       </section>

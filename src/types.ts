@@ -13,5 +13,5 @@ export type Project = {
     description: string
     codeUrl: string
     previewUrl: string
-    //image: string // configuración futura
+    image: string
 }

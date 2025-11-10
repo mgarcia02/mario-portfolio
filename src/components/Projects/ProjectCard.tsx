@@ -1,9 +1,14 @@
 import type { Project } from '@/types'
 
-function ProjectCard({ title, technologies, description, codeUrl }:Project) {
+function ProjectCard({ title, technologies, description, codeUrl, image }:Project) {
     return(
         <article className="flex flex-col gap-6 md:flex-row">
-            <div className="w-full bg-gray-400 rounded-sm h-52 md:w-1/2">
+            <div className="w-full overflow-hidden rounded-sm h-52 md:w-1/2 opacity-90">
+                <img
+                src={image}
+                alt={title}
+                className="object-cover w-full h-full"
+                />
             </div>
             <div className="flex flex-col w-full gap-2 md:w-1/2">
                 <h3 className="text-2xl font-bold">{title}</h3>

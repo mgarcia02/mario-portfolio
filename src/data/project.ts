@@ -1,24 +1,16 @@
 import type { Project } from '@/types'
+import urlShortenerImg from '@/assets/projects/url-shortener-portada.png'
 
 export const projects: Project[] = [
     {
-        id: 'portfolio',
-        title: 'Portfolio personal',
-        technologies: ['React', 'TypeScript', 'Tailwind'],
+        id: 'url-shortener',
+        title: 'Url Shortener',
+        technologies: ['React', 'NodeJS', 'TypeScript'],
         description:
-        'Aplicación web responsiva para mostrar experiencia, proyectos y contacto. Implementación de alias, diseño modular y buenas prácticas profesionales.',
-        codeUrl: '#',
+        'Acortador de enlaces con alias personalizados. Incluye gestión de URLs tanto en modo demo como con autenticación y persistencia en backend.',
+        codeUrl: 'https://github.com/mgarcia02/url-shortener',
         previewUrl: '#',
-        //image: '/assets/a.png',
+        image: urlShortenerImg,
     },
-    {
-        id: 'taskflow',
-        title: 'TaskFlow',
-        technologies: ['Next.js', 'MongoDB', 'n8n'],
-        description:
-        'Gestor de tareas con automatización de flujos usando n8n. CRUD completo, autenticación y panel de administración.',
-        codeUrl: '#',
-        previewUrl: '#',
-        //image: '/assets/b.png',
-    },
+    
 ]

@@ -3,6 +3,8 @@
 Este es mi portfolio personal desarrollado con **React + TypeScript + TailwindCSS**, cuyo objetivo principal es servir como **expositor de proyectos**.  
 Aquí muestro de forma clara y visual los trabajos que he realizado, destacando las tecnologías utilizadas y el código fuente de cada uno.
 
+[Ver Portfolio Online](https://mgarcia02.github.io/portfolio/)
+
 ## Tecnologías principales
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)

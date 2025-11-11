@@ -1,6 +1,18 @@
 import type { Project } from '@/types'
+import { useEffect, useState } from 'react'
 
 function ProjectCard({ title, technologies, description, codeUrl, image }:Project) {
+    const [isMobile, setIsMobile] = useState(false)
+
+    useEffect(() => {
+        const checkMobile = () => setIsMobile(window.innerWidth < 768)
+        checkMobile()
+        window.addEventListener("resize", checkMobile)
+        return () => window.removeEventListener("resize", checkMobile)
+    }, [])
+
+    const visibleTechs = technologies.slice(0, isMobile ? 2 : 3)
+
     return(
         <article className="flex flex-col gap-6 md:flex-row">
             <div className="w-full overflow-hidden rounded-sm h-52 md:w-1/2 opacity-90">
@@ -14,7 +26,7 @@ function ProjectCard({ title, technologies, description, codeUrl, image }:Projec
                 <h3 className="text-2xl font-bold">{title}</h3>
                 <ul className="flex gap-5">
                     {
-                    technologies.map((tech) => (
+                    visibleTechs.map((tech) => (
                         <li className='z-20 p-2 pl-4 pr-4 text-xs tracking-widest rounded-full bg-primary' key={tech}>{tech}</li>
                     ))
                     }

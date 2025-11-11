@@ -20,9 +20,9 @@ function App() {
           <p className="max-w-lg mt-4">Combino backend y frontend para crear <span className='underlined-text'>soluciones web escalables</span>, con especial interés en integrar <span className='underlined-text'>inteligencia artificial</span> y automatización para mejorar procesos y explorar nuevas tecnologías.</p>
         </div>
         <div className="flex flex-row items-center gap-8 md:flex-col">
-          <a href="#"><GitHubIcon className="text-white transition-transform duration-1000 w-7 hover:scale-125" /></a>
-          <a href="#"><EmailIcon className="text-white transition-transform duration-1000 w-7 hover:scale-125"/></a>
-          <a href="#"><LinkedInIcon className="w-6 text-white transition-transform duration-1000 hover:scale-125"/></a>
+          <a href="https://github.com/mgarcia02" target="_blank" rel="noopener noreferrer"><GitHubIcon className="text-white transition-transform duration-1000 w-7 hover:scale-125" /></a>
+          <a href="mailto:mariogrdg02@outlook.com"><EmailIcon className="text-white transition-transform duration-1000 w-7 hover:scale-125"/></a>
+          <a href="https://www.linkedin.com/in/mario-garcía-relaño-b66878284" target="_blank" rel="noopener noreferrer"><LinkedInIcon className="w-6 text-white transition-transform duration-1000 hover:scale-125"/></a>
         </div>
       </section>
       <Skills />

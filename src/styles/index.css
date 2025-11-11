@@ -16,7 +16,7 @@ body p {
     @apply transition-all duration-1000 absolute -bottom-1 left-0 w-0 group-hover:w-full h-[3px] bg-secondary
 }
 .section-container {
-    @apply mx-10 md:mx-auto lg:max-w-4xl md:max-w-2xl py-24
+    @apply mx-10 md:mx-auto lg:max-w-4xl md:max-w-2xl py-16 md:py-24
 }
 .underlined-text {
     @apply text-secondary text-opacity-100

@@ -17,7 +17,7 @@ function App() {
         <div>
           <h1 className="text-4xl font-bold text-white">Mario García Relaño</h1>
           <h2 className="mt-2 text-xl text-white">Programador Full-Stack</h2>
-          <p className="max-w-lg mt-4">Combino backend y frontend para crear <span className='underlined-text'>soluciones web escalables</span>, con especial interés en integrar <span className='underlined-text'>inteligencia artificial</span> y automatización para mejorar procesos y explorar nuevas tecnologías.</p>
+          <p className="max-w-lg mt-4">Me centro en construir <span className='underlined-text'>productos web escalables</span>, con interés en aplicar <span className='underlined-text'>IA y automatización</span> para resolver tareas repetitivas o complejas.</p>
         </div>
         <div className="flex flex-row items-center gap-8 md:flex-col">
           <a href="https://github.com/mgarcia02" target="_blank" rel="noopener noreferrer"><GitHubIcon className="text-white transition-transform duration-1000 w-7 hover:scale-125" /></a>
